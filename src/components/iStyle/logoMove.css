@@ -1,0 +1,35 @@
+.marquee_container{
+    display: flex;
+    overflow: hidden;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+
+.logo_movelist{
+    display: flex;
+    list-style: none;
+}
+.logo_movelistitem{
+    border: 1px solid #E9E9E9;
+    flex-shrink: 0;
+    width: 288px;
+    height: 202px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1600px){
+    .logo_movelistitem{
+        width:290px;
+        height: 180px;
+    }
+}
+@media screen and (max-width: 768px){
+    .logo_movelistitem{
+        width:159px;
+        height: 112px;
+    }
+}
